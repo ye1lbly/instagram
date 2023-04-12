@@ -18,10 +18,3 @@ button.addEventListener("click",
         alert("clicked!")
     }
 )
-
-let button2 = document.querySelector("input")
-button2.addEventListener("input", 
-    function(e) {
-        console.log(e.target.value)
-    }
-)
