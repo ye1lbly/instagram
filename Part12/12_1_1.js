@@ -12,9 +12,11 @@ function red() {
     button.style.backgroundColor = "red"
 }
 
-let button = document.querySelector("input")
-button.addEventListener("click", 
-    function(event) {
-        alert("clicked!")
-    }
-)
+document.addEventListener('DOMContentLoaded', function () {
+    let button = document.querySelector("input");
+    button.addEventListener("click", 
+        function(event) {
+            alert("clicked!");
+        }
+    );
+});
